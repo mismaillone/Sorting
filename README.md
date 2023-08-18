@@ -33,6 +33,9 @@ Provide instructions for users to get your project up and running on their local
 ### Prerequisites
 
 List any software or tools that users need to have installed before proceeding.
+Before you begin, ensure you have the following software installed:
+
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Installation
 
