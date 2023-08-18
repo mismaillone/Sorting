@@ -17,22 +17,25 @@ public class bubbleSortAlgo {
             arr[i] = sc.nextInt();
         }
         bubbleSort(n, arr);
-//        System.out.print(arr[i] + " ");
-//        System.out.print(Arrays.toString(arr));
-        // iterate each number from array to n - 1;
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i]+ " ");
+        }
 
 
     }
 
     public static void bubbleSort(int n, int[] arr) {
-       int temp = 0;
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n  - 1; i++) {
             for (int j = 0; j < n - i -1; j++) {
             if (arr[j] > arr[j + 1]) {
+                // swap
+                int temp  = arr[j];
+                arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
-
              }
             }
+
         }
+
     }
 }
