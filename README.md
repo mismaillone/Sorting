@@ -36,6 +36,7 @@ List any software or tools that users need to have installed before proceeding.
 Before you begin, ensure you have the following software installed:
 
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [Visual Studio Code](https://code.visualstudio.com/)
+or use online [compiler](https://www.onlinegdb.com/online_java_compiler)
 
 ### Installation
 
